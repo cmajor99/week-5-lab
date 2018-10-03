@@ -11,7 +11,7 @@ int main() {
      auto t = sqrt(x);
     ofstream result;
     result.open ("result.txt");
-    result << "your triangle has 3 sides which are:" << t << "," << y << "," << z << "," << t << "\n";
+    result << "your triangle has 3 sides which are:" << t << "," << y << "," << z << "," "\n";
   
     result.close();
 
